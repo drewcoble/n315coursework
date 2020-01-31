@@ -1,0 +1,26 @@
+nav {
+  margin: 0 50px;
+  height: 65px;
+  //   background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+
+  .navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 130px;
+    padding: 0 10px;
+    // background-color: antiquewhite;
+
+    i {
+      font-size: 150%;
+      color: $blue;
+    }
+
+    &:hover {
+      background-color: rgba($white, 0.1);
+    }
+  }
+}

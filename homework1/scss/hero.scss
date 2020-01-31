@@ -1,0 +1,22 @@
+.hero {
+  height: 600px;
+  margin: 0 50px;
+  background: linear-gradient(to right, rgba($black, 0.9), rgba($black, 0.2)),
+    url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .callout {
+    margin-left: 50px;
+
+    h1 {
+      font-size: 300%;
+    }
+    h4 {
+      font-size: 200%;
+    }
+  }
+}
