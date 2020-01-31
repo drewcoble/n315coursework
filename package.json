@@ -1,0 +1,19 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass scss/styles.scss css/main.css -w"
+  },
+  "author": "Drew Coble",
+  "license": "ISC"
+}
