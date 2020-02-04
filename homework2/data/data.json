@@ -1,0 +1,33 @@
+{
+  "MainNav": [
+    {
+      "path": "home",
+      "linkName": "Home"
+    },
+    {
+      "path": "awards",
+      "linkName": "Awards"
+    },
+    {
+      "path": "contact",
+      "linkName": "Contact"
+    }
+  ],
+  "Pages": [
+    {
+      "pageName": "home",
+      "content": "<div class='hero'><h1>Kyle Guy<br>Unofficial Fan Club</h1><p>#7 - Sacramento Kings</p></div><section class='sec1'><h1>Kyle's Path to the NBA:</h1><div class='pathContainer'><div class='path path1'><h2>Lawrence Central</h2></div><div class='path path2'><h2>Virginia</h2></div><div class='path path3'><h2>Kings</h2></div></section>"
+    },
+    {
+      "pageName": "awards",
+      "content": "<section class='awards'><h1>Awards & Accolades</h1><div class='awardsContainer'><div class='awardDiv'>Indiana Mr. Basketball - 2016</div><div class='awardDiv'>Ranked #27 Overall Recruit by ESPN</div><div class='awardDiv'>McDonald's All-American - 2016</div><div class='awardDiv'>NCAA Basketball Tournament Champion - 2019</div><div class='awardDiv'>NCAA Final Four Most Outstanding Player - 2019</div></div></section>"
+    },
+    {
+      "pageName": "contact",
+      "content": "<section class='contact'><h1>Contact the Kyle Guy Fan Club</h1><div class='contactForm'><input class='input' type='text' placeholder='Full Name'><input class='input' type='text' placeholder='Email Address'></input><textarea class='input longText' placeholder='Message'></textarea><input class='submitButton' type='submit'></input></div></section>"
+    }
+  ],
+  "Footer": {
+    "content": "<p>Kyle Guy Fan Club &copy; Drew Coble, 2020</p>"
+  }
+}

@@ -1,0 +1,21 @@
+.hero {
+  height: 650px;
+  background: linear-gradient(to left, rgba(91, 43, 130, 0.8), rgba(black, 0.6)),
+    url("../images/hero.jpg");
+  padding: 50px;
+  background-size: cover;
+  background-position: initial;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 350%;
+    color: rgb(91, 43, 130);
+  }
+  p {
+    font-size: 200%;
+    color: whitesmoke;
+  }
+}
