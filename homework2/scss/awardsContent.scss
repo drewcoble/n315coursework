@@ -13,29 +13,93 @@
   .awardsContainer {
     min-height: 500px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 
-    .awardDiv {
-      border-radius: 12px;
-      min-height: 90px;
-      width: 40%;
-      margin: 20px 0;
-      background: linear-gradient(to bottom, $gray, $white);
-      font-size: 20px;
-      font-weight: 700;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      &:hover {
-        cursor: pointer;
-        background: linear-gradient(
+    .hs {
+      background: linear-gradient(
           to bottom,
-          rgba($gray, 0.8),
-          rgba($white, 0.8)
+          rgba($black, 0.5),
+          rgba($black, 0.5)
+        ),
+        url("../images/lc.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+    .ncaa {
+      background: linear-gradient(
+          to bottom,
+          rgba($black, 0.5),
+          rgba($black, 0.5)
+        ),
+        url("../images/guy2.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+    .nba {
+      background: linear-gradient(
+          to bottom,
+          rgba($black, 0.5),
+          rgba($black, 0.5)
+        ),
+        url("../images/guy3.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    .awardsSection {
+      padding: 40px;
+      min-height: 450px;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: initial;
+      justify-content: space-between;
+      border-radius: 12px;
+      margin: 20px 0;
+
+      h2 {
+        height: 150px;
+        font-size: 35px;
+        color: $white;
+        width: 40%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .awardDiv {
+        border-radius: 12px;
+        height: 150px;
+        width: 40%;
+        margin: 10px;
+        background: linear-gradient(
+          to top,
+          rgba($gray, 0.7),
+          rgba($white, 0.7)
         );
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:hover {
+          cursor: pointer;
+          background: linear-gradient(
+            to top,
+            rgba($gray, 0.8),
+            rgba($white, 0.8)
+          );
+        }
       }
     }
   }

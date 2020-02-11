@@ -58,7 +58,7 @@ nav {
 
 .hero {
   height: 650px;
-  background: linear-gradient(to left, rgba(91, 43, 130, 0.8), rgba(0, 0, 0, 0.6)), url("../images/hero.jpg");
+  background: linear-gradient(to left, rgba(91, 43, 130, 0.8), rgba(6, 25, 34, 0.6)), url("../images/hero.jpg");
   padding: 50px;
   background-size: cover;
   background-position: initial;
@@ -68,73 +68,115 @@ nav {
   justify-content: center; }
   .hero h1 {
     font-size: 350%;
-    color: #5b2b82; }
+    color: whitesmoke; }
   .hero p {
     font-size: 200%;
-    color: whitesmoke; }
+    color: #5b2b82; }
 
-.content .sec1 {
+.content .homeSec1 {
   width: 100%;
   height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #061922; }
-  .content .sec1 h1 {
+  .content .homeSec1 h1 {
     font-size: 45px;
     color: whitesmoke;
     margin-left: 40px; }
-  .content .sec1 .pathContainer {
+  .content .homeSec1 .pathContainer {
     height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center; }
-    .content .sec1 .pathContainer .path {
+    .content .homeSec1 .pathContainer .path {
       width: 30%;
       height: 400px;
       display: flex;
       justify-content: center;
       align-items: center;
       color: rgba(245, 245, 245, 0);
-      font-size: 20px;
+      font-size: 18px;
       border-radius: 12px;
       text-align: center; }
-    .content .sec1 .pathContainer .path1 {
+    .content .homeSec1 .pathContainer .path1 {
       background: url("../images/lc.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; }
-      .content .sec1 .pathContainer .path1:hover {
+      .content .homeSec1 .pathContainer .path1:hover {
         color: whitesmoke;
         cursor: pointer;
         background: linear-gradient(to right, rgba(6, 25, 34, 0.6), rgba(6, 25, 34, 0.6)), url("../images/lc.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; }
-    .content .sec1 .pathContainer .path2 {
+    .content .homeSec1 .pathContainer .path2 {
       background: url("../images/guy2.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; }
-      .content .sec1 .pathContainer .path2:hover {
+      .content .homeSec1 .pathContainer .path2:hover {
         color: whitesmoke;
         cursor: pointer;
         background: linear-gradient(to right, rgba(6, 25, 34, 0.6), rgba(6, 25, 34, 0.6)), url("../images/guy2.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; }
-    .content .sec1 .pathContainer .path3 {
+    .content .homeSec1 .pathContainer .path3 {
       background: url("../images/guy3.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; }
-      .content .sec1 .pathContainer .path3:hover {
+      .content .homeSec1 .pathContainer .path3:hover {
         color: whitesmoke;
         cursor: pointer;
         background: linear-gradient(to right, rgba(6, 25, 34, 0.6), rgba(6, 25, 34, 0.6)), url("../images/guy3.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; }
+
+.content .homeSec2 {
+  min-height: 600px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(6, 25, 34, 0.4), rgba(6, 25, 34, 0.7)), url("../images/guyPhotoV.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .content .homeSec2 h1 {
+    padding: 15px;
+    background-color: rgba(6, 25, 34, 0.8);
+    border-radius: 12px;
+    font-size: 45px;
+    color: whitesmoke;
+    margin: 0; }
+  .content .homeSec2 .statsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 80%; }
+    .content .homeSec2 .statsContainer .seasonStats {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: 100px; }
+      .content .homeSec2 .statsContainer .seasonStats .stat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        background: linear-gradient(to top, rgba(99, 113, 122, 0.9), #63717a);
+        height: 100px;
+        width: 150px;
+        border-radius: 12px; }
 
 .awards {
   min-height: 600px;
@@ -147,23 +189,60 @@ nav {
   .awards .awardsContainer {
     min-height: 500px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap; }
-    .awards .awardsContainer .awardDiv {
-      border-radius: 12px;
-      min-height: 90px;
-      width: 40%;
-      margin: 20px 0;
-      background: linear-gradient(to bottom, #63717a, whitesmoke);
-      font-size: 20px;
-      font-weight: 700;
+    .awards .awardsContainer .hs {
+      background: linear-gradient(to bottom, rgba(6, 25, 34, 0.5), rgba(6, 25, 34, 0.5)), url("../images/lc.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat; }
+    .awards .awardsContainer .ncaa {
+      background: linear-gradient(to bottom, rgba(6, 25, 34, 0.5), rgba(6, 25, 34, 0.5)), url("../images/guy2.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat; }
+    .awards .awardsContainer .nba {
+      background: linear-gradient(to bottom, rgba(6, 25, 34, 0.5), rgba(6, 25, 34, 0.5)), url("../images/guy3.jpg");
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat; }
+    .awards .awardsContainer .awardsSection {
+      padding: 40px;
+      min-height: 450px;
+      width: 90%;
       display: flex;
-      justify-content: center;
-      align-items: center; }
-      .awards .awardsContainer .awardDiv:hover {
-        cursor: pointer;
-        background: linear-gradient(to bottom, rgba(99, 113, 122, 0.8), rgba(245, 245, 245, 0.8)); }
+      flex-wrap: wrap;
+      align-items: initial;
+      justify-content: space-between;
+      border-radius: 12px;
+      margin: 20px 0; }
+      .awards .awardsContainer .awardsSection h2 {
+        height: 150px;
+        font-size: 35px;
+        color: whitesmoke;
+        width: 40%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+      .awards .awardsContainer .awardsSection .awardDiv {
+        border-radius: 12px;
+        height: 150px;
+        width: 40%;
+        margin: 10px;
+        background: linear-gradient(to top, rgba(99, 113, 122, 0.7), rgba(245, 245, 245, 0.7));
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        .awards .awardsContainer .awardsSection .awardDiv:hover {
+          cursor: pointer;
+          background: linear-gradient(to top, rgba(99, 113, 122, 0.8), rgba(245, 245, 245, 0.8)); }
 
 .contact {
   min-height: 600px;
@@ -214,6 +293,85 @@ nav {
       .contact .contactForm .submitButton:active {
         background-color: rgba(91, 43, 130, 0.8); }
 
+.newsletter {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #5b2b82; }
+  .newsletter h1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: right; }
+  .newsletter .newsSignUp {
+    background: linear-gradient(to right, rgba(99, 113, 122, 0.8), rgba(99, 113, 122, 0.8)), url("../images/guy1.jpg");
+    min-height: 600px;
+    width: 50%;
+    color: #061922;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .newsletter .newsSignUp .input {
+      height: 50px;
+      width: 350px;
+      padding-left: 20px;
+      font-size: 20px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      border: none; }
+      .newsletter .newsSignUp .input:focus {
+        width: 358px;
+        height: 58px;
+        border: #5b2b82 4px solid;
+        outline: none; }
+    .newsletter .newsSignUp .submitButton {
+      width: 350px;
+      height: 50px;
+      background-color: #5b2b82;
+      color: whitesmoke;
+      border: none;
+      border-radius: 12px;
+      font-size: 25px; }
+      .newsletter .newsSignUp .submitButton:focus {
+        outline: none; }
+      .newsletter .newsSignUp .submitButton:active {
+        background-color: rgba(91, 43, 130, 0.8); }
+
+.faq {
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 80%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .faq h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px; }
+  .faq .faqContainer {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px; }
+    .faq .faqContainer .faqDiv {
+      height: 32%;
+      width: 90%;
+      background-color: #5b2b82;
+      padding: 20px;
+      border-radius: 12px; }
+      .faq .faqContainer .faqDiv p {
+        margin-bottom: 0; }
+
 footer {
   min-height: 50px;
   width: 100%;
@@ -221,8 +379,12 @@ footer {
   background-color: #5b2b82;
   color: whitesmoke;
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
   font-size: 20px; }
+  footer i {
+    margin: 10px; }
   footer p {
     margin: 0; }
